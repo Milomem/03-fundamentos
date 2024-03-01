@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import { InMemoryUsersRepository } from '@/repository/in-memory/in-memory-users-repository'
+import { InMemoryUsersRepository } from '@/repositories/in-memory/in-memory-users-repository'
 import { hash } from 'bcryptjs'
 import { GetUserProfileUseCase } from './get-user-profile'
 import { ResourceNotExistsError } from './errors/resource-not-exist'

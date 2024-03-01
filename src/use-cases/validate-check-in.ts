@@ -1,5 +1,5 @@
 import { CheckIn } from '@prisma/client'
-import { CheckInsRepository } from '@/repository/check-ins-repository'
+import { CheckInsRepository } from '@/repositories/check-ins-repository'
 import { ResourceNotExistsError } from './errors/resource-not-exist'
 import dayjs from 'dayjs'
 import { LateValidateCheckInError } from './errors/lates-check-in-validation-error'

@@ -3,7 +3,7 @@ import { randomUUID } from 'node:crypto'
 import {
   FindManyNearByParams,
   GymsRepository,
-} from '@/repository/gyms-repository'
+} from '@/repositories/gyms-repository'
 import { getDistanceBetweenCoordinates } from '@/utils/get-distance-between-coodinates'
 
 export class InMemoryGymsRepository implements GymsRepository {

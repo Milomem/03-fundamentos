@@ -17,3 +17,8 @@ Content-Type: application/json
     "email": "fellipef6@hotmail.com",
     "password": "123456"
 }
+
+###
+
+GET http://localhost:3333/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjOWU1MzA1OS0xZWU3LTRmZDEtOTIyOC0wNDMzYWUxNzhkMTEiLCJpYXQiOjE3MDkyMzE0NTd9.c4TLzRqnwLUn0Nqmo4AufSC1zHunXyO69LfwnEyn47U

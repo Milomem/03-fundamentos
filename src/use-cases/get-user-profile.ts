@@ -1,4 +1,4 @@
-import { UsersRepository } from '@/repository/users-repository'
+import { UsersRepository } from '@/repositories/users-repository'
 import { User } from '@prisma/client'
 import { ResourceNotExistsError } from './errors/resource-not-exist'
 

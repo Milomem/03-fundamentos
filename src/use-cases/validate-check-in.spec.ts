@@ -1,4 +1,4 @@
-import { InMemoryCheckInsRepository } from '@/repository/in-memory/in-memory-check-ins-repository'
+import { InMemoryCheckInsRepository } from '@/repositories/in-memory/in-memory-check-ins-repository'
 import { ResourceNotExistsError } from '@/use-cases/errors/resource-not-exist'
 import { expect, describe, it, beforeEach, afterEach, vi } from 'vitest'
 import { ValidateCheckInUseCase } from './validate-check-in'
